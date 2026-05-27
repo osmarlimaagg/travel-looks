@@ -472,10 +472,10 @@ function DayCard({ day, index, onAddLook, onEditLook, onEditDay, onViewLook, dar
 // ── Sync Badge ────────────────────────────────────────────────────────────────
 function SyncBadge({ status }) {
   const map = {
-    synced:  { icon:"☁️", label:"salvo na nuvem", color:"#5DCAA5" },
-    saving:  { icon:"⏳", label:"salvando...",    color:"#d4a84b" },
-    error:   { icon:"⚠️", label:"erro ao salvar", color:"#e07060" },
-    loading: { icon:"⏳", label:"carregando...",  color:"#7a9fd4" },
+    synced:  { icon:"☁️", label:"Salvo na nuvem", color:"#5DCAA5" },
+    saving:  { icon:"⏳", label:"Salvando...",    color:"#d4a84b" },
+    error:   { icon:"⚠️", label:"Erro ao salvar", color:"#e07060" },
+    loading: { icon:"⏳", label:"Carregando...",  color:"#7a9fd4" },
   };
   const s = map[status] || map.synced;
   return (
