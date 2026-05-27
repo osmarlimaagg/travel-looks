@@ -418,6 +418,7 @@ function DayCard({ day, index, onAddLook, onEditLook, onEditDay, onViewLook, dar
         </button>
       </div>
 
+
       {open && (
         <div style={{ borderTop:`0.5px solid ${tk.divider}`, padding:"12px 14px" }}>
           <div style={{ display:"flex", gap:10, overflowX:"auto", paddingBottom:6 }}>
