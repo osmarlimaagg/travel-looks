@@ -43,14 +43,14 @@ function dateForDay(i) {
 
 function buildDefaultDays() {
   return [
-    { id:"d1", title:"Chegada em Bariloche", location:"", looks:[] },
+    { id:"d1", title:"Rumo a Bariloche", location:"Bariloche", looks:[] },
   ];
 }
 
 // ── Tags ──────────────────────────────────────────────────────────────────────
-const TAGS = ["Voo","Trilha","Passeio","Almoço","Jantar","Show"];
+const TAGS = ["Aerolook","Trilha","Passeio","Almoço","Jantar","Show"];
 const TAG_COLORS = {
-  Passeio:"#E1F5EE:#085041", Jantar:"#EEEDFE:#3C3489", Voo:"#E6F1FB:#0C447C",
+  Passeio:"#E1F5EE:#085041", Jantar:"#EEEDFE:#3C3489", Aerolook:"#E6F1FB:#0C447C",
   Almoço:"#FAEEDA:#633806", Show:"#FBEAF0:#72243E", Trilha:"#EAF3DE:#27500A"
 };
 function tagStyle(tag) {
